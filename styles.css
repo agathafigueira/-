@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-image: url('./img/blur-mobile.png');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  border-radius: 8px;
+  padding: 10px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('./img/bg.svg');
+  background-color: black;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container #perto {
+  margin-top: 20px;
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.486);
+  padding: 4px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0);
+}
+
+.container #perto:hover {
+  border: 4px solid #00000071;
+  padding: 4px;
+}
+
+.container p {
+  margin-bottom: 20px;
+  color: #1c1b1bb7;
+  font-weight: bold;
+  width: 100%;
+  
+  text-align: center;
+  padding: 12px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+} 
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.646);
+  font-weight: bolder;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  transition: 0.1s ease;
+  background: #00000071;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.486);
+  gap: 10px;
+}
+
+a:hover {
+  background: #1f000bb0;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
+h6 {
+  padding: 8px;
+}
+
+@media (max-width: 443px)
+{
+  .container {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./img/bg.svg');
+    background-color: black;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 5% bottom 0%;
+  }
+  a:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.646);
+    font-weight: bolder;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    transition: 0.1s ease;
+    background: #00000071;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 376px)
+{
+  .container {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./img/bg.svg');
+    background-color: black;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 30% bottom 10%;
+  }
+  a:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.646);
+    font-weight: bolder;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    transition: 0.1s ease;
+    background: #00000071;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    gap: 10px;
+  }
+ 
+}
+
+img{
+  width:20px;
+  height:20px;
+}
+
+a div{
+  width:20px;
+  height:20px;
+  padding:0px;
+  margin:0px;
+}
